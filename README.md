@@ -1,2 +1,2 @@
 # jenkins-test
-## learning jenkins - devops
+## learning jenkins - in devops series
