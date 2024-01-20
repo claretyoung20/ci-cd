@@ -10,4 +10,9 @@ public class TestController {
     public String test() {
         return "LEARNING JENKINS";
     }
+
+    @GetMapping("/github")
+    public String github() {
+        return "LEARNING GITHUB ACTIONS";
+    }
 }
