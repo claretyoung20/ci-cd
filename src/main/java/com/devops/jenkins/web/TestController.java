@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/test")
+    @GetMapping("/jenkins")
     public String test() {
         return "LEARNING JENKINS";
     }
 
-    @GetMapping("/github")
+    @GetMapping("/test/github")
     public String github() {
         return "LEARNING GITHUB ACTIONS";
     }
